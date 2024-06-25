@@ -29,7 +29,7 @@ const productSchema = new mongoose.Schema({
   },
 });
 
-const Product = mongoose.model("Product", productSchema); 
+const Product = mongoose.model("products", productSchema); 
 // สร้างโมเดลชื่อ "Product" จาก Schema ที่กำหนดเพื่อใช้ในการทำงานกับคอลเลกชัน "products"
 
 module.exports = Product;
